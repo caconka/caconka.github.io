@@ -1,0 +1,128 @@
+img {
+  max-width: 100%;
+}
+
+.content-wiki {
+  display: block;
+}
+
+.max-width-wiki {
+  max-width: 64rem;
+}
+
+.wiki-folder {
+  width: 33.33333%;
+}
+
+.wiki-folder > a, .image > a, .list-img > a, .breadcrumbs > a {
+  background-image: none;
+}
+
+.wiki-folder > a:hover, .image > a:hover, .list-img > a:hover, .breadcrumbs > a:hover {
+  background-image: none;
+}
+
+.breadcrumbs {
+  padding-top: 2rem;
+  color: #8c8c8c;
+}
+
+.breadcrumbs > a {
+  color: #8c8c8c;
+}
+
+.image > a {
+  display: flex;
+}
+
+.book-title {
+  position: relative;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #383838;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.readings {
+  margin: .2rem auto;
+}
+
+.list-img {
+  width: 20%;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-img > a > img {
+  width: 100%;
+  border-radius: 4%;
+}
+
+.cooking-list {
+  padding: 0;
+}
+
+.cooking-item {
+  display: flex;
+  padding: .7rem 0;
+  border-color: lightgray;
+}
+
+.cooking-author {
+  color: #8c8c8c;
+}
+
+.flex {
+  display: flex;
+}
+
+.pr1 {
+  padding-right: 2rem;
+}
+
+.mt1 {
+  margin-top: .25rem;
+}
+
+.mb1 {
+  margin-bottom: .25rem;
+}
+
+.fl {
+  float: left;
+}
+
+.pa1 {
+  padding: .65rem;
+}
+
+.pa1-r {
+  padding: 0 3rem 0 0;
+}
+
+.pa2 {
+  padding: .5rem;
+}
+
+.pa2-tb {
+  padding: 2rem 0;
+}
+
+.w-25 {
+  width: 20%;
+}
+
+.bg-near-white {
+  background-color: #f4f4f4;
+}
+
+.bb {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
