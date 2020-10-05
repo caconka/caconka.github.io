@@ -14,6 +14,12 @@ img {
   width: 33.33333%;
 }
 
+@media (max-width: 480px) {
+  .wiki-folder {
+    width: 49.99999%;
+  }
+}
+
 .wiki-folder > a, .image > a, .list-img > a, .breadcrumbs > a {
   background-image: none;
 }
@@ -84,6 +90,12 @@ img {
 
 .pr1 {
   padding-right: 2rem;
+}
+
+@media (max-width: 480px) {
+  .pr1 {
+    padding-right: 1rem;
+  }
 }
 
 .mt1 {
