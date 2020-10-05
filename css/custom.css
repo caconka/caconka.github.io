@@ -88,11 +88,22 @@ img {
   display: flex;
 }
 
+@media screen and (max-width: 600px) {
+  .library-content > .flex {
+    flex-direction: column;
+  }
+
+  .flex > .image {
+    align-self: center;
+    width: 30%
+  }
+}
+
 .pr1 {
   padding-right: 2rem;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .pr1 {
     padding-right: 1rem;
   }
@@ -116,6 +127,12 @@ img {
 
 .pa1-r {
   padding: 0 3rem 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  .pa1-r {
+    padding: 0 1rem 0 0;
+  }
 }
 
 .pa2 {
